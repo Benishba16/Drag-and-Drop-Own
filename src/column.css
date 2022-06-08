@@ -1,0 +1,22 @@
+.column-container{
+    border: 1px solid lightgray;
+    margin: 8px;
+    width: 220px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.column-title{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 8px;
+}
+
+.column-entire{
+}
+
+.task-comp{
+    /* border: 2px solid red; */
+    min-height: 100px;
+}
