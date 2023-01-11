@@ -31,6 +31,8 @@ const finalSpaceCharacters = [
   }
 ]
 
+//removed comment
+
 const finalSpace = {
   tasks: {
     "task-1": {id: "task-1", name: "Gary Goodspeed"},
