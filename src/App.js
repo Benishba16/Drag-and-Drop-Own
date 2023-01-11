@@ -3,33 +3,33 @@ import './App.css';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import Column from './column';
 
-// const finalSpaceCharacters = [
-//   {
-//     id: 'gary',
-//     name: 'Gary Goodspeed',
-//     thumb: '/images/gary.png'
-//   },
-//   {
-//     id: 'cato',
-//     name: 'Little Cato',
-//     thumb: '/images/cato.png'
-//   },
-//   {
-//     id: 'kvn',
-//     name: 'KVN',
-//     thumb: '/images/kvn.png'
-//   },
-//   {
-//     id: 'mooncake',
-//     name: 'Mooncake',
-//     thumb: '/images/mooncake.png'
-//   },
-//   {
-//     id: 'quinn',
-//     name: 'Quinn Ergon',
-//     thumb: '/images/quinn.png'
-//   }
-// ]
+const finalSpaceCharacters = [
+  {
+    id: 'gary',
+    name: 'Gary Goodspeed',
+    thumb: '/images/gary.png'
+  },
+  {
+    id: 'cato',
+    name: 'Little Cato',
+    thumb: '/images/cato.png'
+  },
+  {
+    id: 'kvn',
+    name: 'KVN',
+    thumb: '/images/kvn.png'
+  },
+  {
+    id: 'mooncake',
+    name: 'Mooncake',
+    thumb: '/images/mooncake.png'
+  },
+  {
+    id: 'quinn',
+    name: 'Quinn Ergon',
+    thumb: '/images/quinn.png'
+  }
+]
 
 const finalSpace = {
   tasks: {
